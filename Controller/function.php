@@ -1,6 +1,8 @@
 <?php
 date_default_timezone_set("America/Sao_Paulo");
 
+include_once('Controller/functionMenu.php');
+
 function formatCnpjCpf($value){
   $cpf = preg_replace("/\D/", '', $value);
   
